@@ -12,7 +12,7 @@ Thumbs Up can:
 
 **POST** thumbnails URL(s), [/thumbnail](https://www.thumbsup.io/thumbnail)
 
-```json
+```js
 [
   {
     url: 'http://zeke.sikelianos.com/image.jpg',
@@ -28,9 +28,9 @@ Thumbs Up can:
 ]
 ```
 
-Thumbs Up will return:
+Response once processing is done:
 
-```json
+```js
 [
   {
     url: 'http://zeke.sikelianos.com/image.jpg',
