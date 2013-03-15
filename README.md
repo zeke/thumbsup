@@ -24,7 +24,8 @@ Thumbs Up can:
       width: '400'
     },
     {
-      id: 'unique_id', // optional pass-through properties
+      id: 'unique_id', // optional pass-through property
+      foo: 'bar', // optional pass-through property 
       url: 'http://zeke.sikelianos.com',
       height: '300',
       width: '400'
