@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://zeke.sikelianos.com/",
+    "height": "300",
+    "width": "400"
+  },
+  {
+    "id": "unique_id",
+    "foo": "bar",
+    "url": "http://zeke.sikelianos.com/some-image.jpg",
+    "height": "300",
+    "width": "400"
+  }
+]

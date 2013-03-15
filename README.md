@@ -19,16 +19,16 @@ Thumbs Up can:
   ```js
   [
     {
-      url: 'http://zeke.sikelianos.com/image.jpg',
-      height: '300',
-      width: '400'
+      "url": "http://zeke.sikelianos.com/",
+      "height": "300",
+      "width": "400"
     },
     {
-      id: 'unique_id', // optional pass-through property
-      foo: 'bar',      // optional pass-through property
-      url: 'http://zeke.sikelianos.com',
-      height: '300',
-      width: '400'
+      "id": "unique_id",
+      "foo": "bar",
+      "url": "http://zeke.sikelianos.com/some-image.jpg",
+      "height": "300",
+      "width": "400"
     }
   ]
   ```
@@ -41,18 +41,18 @@ Thumbs Up can:
   ```js
   [
     {
-      url: 'http://zeke.sikelianos.com/image.jpg',
-      height: '300',
-      width: '400',
-      thumbnail: 'https://s3.aws.amazon.com/some-url.png'
+      "url": "http://zeke.sikelianos.com/",
+      "height": "300",
+      "width": "400"
+      "thumbnail": 'https://s3.aws.amazon.com/some-url.png'
     },
     {
-      id: 'unique_id', // optional pass-through property
-      foo: 'bar',      // optional pass-through property
-      url: 'http://zeke.sikelianos.com',
-      height: '300',
-      width: '400',
-      thumbnail: 'https://s3.aws.amazon.com/some-url.png'
+      "id": "unique_id",
+      "foo": "bar",
+      "url": "http://zeke.sikelianos.com/some-image.jpg",
+      "height": "300",
+      "width": "400"
+      "thumbnail": 'https://s3.aws.amazon.com/another-url.png'
     }
   ]
   ```
