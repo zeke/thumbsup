@@ -25,7 +25,7 @@ Thumbs Up can:
     },
     {
       id: 'unique_id', // optional pass-through property
-      foo: 'bar', // optional pass-through property 
+      foo: 'bar',      // optional pass-through property
       url: 'http://zeke.sikelianos.com',
       height: '300',
       width: '400'
@@ -47,7 +47,8 @@ Thumbs Up can:
       thumbnail: 'https://s3.aws.amazon.com/some-url.png'
     },
     {
-      id: 'unique_id', // optional pass-through properties
+      id: 'unique_id', // optional pass-through property
+      foo: 'bar',      // optional pass-through property
       url: 'http://zeke.sikelianos.com',
       height: '300',
       width: '400',
