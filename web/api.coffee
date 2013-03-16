@@ -12,7 +12,7 @@ app.get "/", (req, res) ->
 app.post "/thumbnails", (req, res) ->
 
   response = _.map(req.body, (item) ->
-    _.extend(item, {'thumbnail': 'some-url'})
+    _.extend(item, {'thumbnail': 'https://s3.aws.amazon.com/thumbsup/sha1.png'})
   )
 
   res.send(200, response)
