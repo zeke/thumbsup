@@ -6,6 +6,7 @@
     "async":           "0.1.x",
     "coffee-script":   "1.2.x",
     "express":         "3.1.x",
+    "underscore":      "1.4.4",
     "redis":           "0.8.x",
     "cors":            "0.0.4",
     "nodemon":         "0.6.18"
